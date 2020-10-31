@@ -7,8 +7,7 @@ m31 = str('01 03 05 07 08 10 12')
 m30 = str('04 06 09 11')
 fev = str('02')
 
-repetir = True
-while repetir:
+while True:
     # Mostrar data atual:
     now = datetime.datetime.now()
     print('Data atual: ' + str(now.strftime("%Y/%m/%d %H:%M:%S\n")))
